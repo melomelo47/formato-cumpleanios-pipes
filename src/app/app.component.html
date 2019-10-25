@@ -1,0 +1,7 @@
+<p>
+  cumpleaños en formatos diferentes {{cumpleanios | date:toggle() | uppercase }}
+</p>
+
+<!-- Se pueden concatenar mas de una propiedad a los pipes, en este caso se formatea la fecha y se pasa todo a mayúsculas-->
+
+<button (click) = "toggleFormat()">Cambiar formatos</button>
